@@ -1,16 +1,42 @@
-# React + Vite
+# React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple e-commerce UI built while learning React.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- React
+- Vite
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📦 Features
+- Navbar
+- Hero section
+- Product listing with cards
+- Hover effects
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
+```
+src/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+├── pages/
+
+│   └── Homepage.jsx
+
+├── styles/
+
+│   └── global.css
+
+├── App.jsx
+
+└── main.jsx
+```
+## 🙋‍♀️ Author
+Deepika — learning React one component at a time.
+
+
